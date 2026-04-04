@@ -7,17 +7,17 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Lương Bá Quang
+&emsp; **Họ và tên:** Nguyễn Võ Trung Hưng 
 
-&emsp; **Số điện thoại:** 0793613532
+&emsp; **Số điện thoại:** 0947003989
 
-&emsp; **Email:** luongbaquang3122005@gmail.com
+&emsp; **Email:** nguyenvotrunghung2005@gmail.com
 
 &emsp; **Trường:** Đại học FPT
 
 &emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** FPTSS2
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
