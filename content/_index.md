@@ -10,11 +10,11 @@ chapter: false
 
 
 ### Student Information:
-&emsp; **Full Name:** Luong Ba Quang
+&emsp; **Full Name:** Nguyen Vo Trung Hung
 
-&emsp; **Phone Number:** 0793613532
+&emsp; **Phone Number:** 0947003989
 
-&emsp; **Email:** luongbaquang3122005@gmail.com
+&emsp; **Email:** nguyenvotrunghung2005@gmail.com
 
 &emsp; **University:** FPT University 
 

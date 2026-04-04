@@ -1,28 +1,28 @@
 ---
-
 title: "Week 5 Worklog"
-date: 2024-01-29
+date: 2026-02-02
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
-----------------------
+---
+
 
 ### Week 5 Objectives:
 
-* Learn storage, database, monitoring.
+* Complete 100% of the standardized dataset for 3 categories: ACNE, SKINTONE, WRINKLES.
+* Learn about Load Balancing and Auto Scaling on AWS to optimize the system.
 
-### Tasks:
+### Tasks Completed During the Week:
 
-| Day | Task                   | Start Date | Completion Date | Reference Material                      |
-| --- | ---------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Learn S3 basics <br> -Create S3 bucket     | 02/02/2026 | 02/02/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Upload/download data <br> -Enable static website feature <br> -Configuring public access block <br> -Configuring public objects <br> -Test website | 02/03/2026 | 02/03/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Setup RDS PostgreSQL <br> +Create RDS database instance <br> +Application Deployment <br> +Backup and Restore | 02/04/2026 | 02/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Connect database     | 02/05/2026 | 02/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Learn CloudWatch <br> +CloudWatch Metrics <br> +CloudWatch Logs <br> +CloudWatch Alarms     | 02/06/2026 | 02/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Day | Task                                                                                                                                                             | Start Date | Completion Date | Reference Material                      |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
+| 2   | - Complete data collection and labeling for ACNE (classified into 3 levels) <br> - Learn about Elastic Load Balancing (ELB)                                      | 02/02/2026 | 02/02/2026      |  |
+| 3   | - Finalize the dataset for SKINTONE (classified using the Fitzpatrick scale) <br> - Configure Application Load Balancer                                          | 02/03/2026 | 02/03/2026      | |
+| 4   | - Collect sufficient images for WRINKLES (eye and forehead wrinkles) <br> - Learn about Auto Scaling Groups                                                     | 02/04/2026 | 02/04/2026      | |
+| 5   | - Perform final data preprocessing (Augmentation, Normalization) for the entire dataset <br> - Configure Auto Scaling based on CPU load                         | 02/05/2026 | 02/05/2026      |  |
+| 6   | - Package the complete Skin AI Dataset and store the final version on S3 <br> - Test the system's load handling and auto-scaling capabilities                   | 02/06/2026 | 02/06/2026      | |
 
-### Achievements:
+### Results Achieved:
 
-* Stored data on S3.
-* Deployed RDS successfully.
-* Monitored system.
+* Completed the standardized dataset for the Skin AI Analytic model with full labels for Acne, Skintone, and Wrinkles.
+* Understood and practiced deploying a high-availability system using Load Balancer and Auto Scaling.

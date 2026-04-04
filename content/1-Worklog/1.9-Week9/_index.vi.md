@@ -1,32 +1,28 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
+
+title: "Week 9 Worklog"
+date: 2024-02-26
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
----
+----------------------
 
+### Mục tiêu tuần 9:
 
-### Mục tiêu:
+* Tiếp tục đi sâu vào tinh chỉnh kiến trúc và hàm loss để cải thiện độ chính xác (metrics).
+* Giải quyết triệt để các lỗi còn tồn đọng trong quá trình hội tụ của mô hình.
 
-* Học phát triển backend với Node.js.
-* Học phát triển frontend với React.
+### Công việc thực hiện:
 
-### Công việc:
-
-| Day | Task                | Start Date | Completion Date | Reference Material                      |
-| --- | ------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Tìm hiểu Node.js <br> -Xây dựng REST API  | 03/02/2026 | 03/02/2026      | YouTube <br> https://www.w3schools.com/ |
-| 3   | - Kết nối database <br> -Test API <br> -Debug và tối ưu   | 03/03/2026 | 03/03/2026      | YouTube <br> https://www.w3schools.com/ |
-| 4   |- Tìm hiểu React <br> - Xây dựng giao diện   | 03/04/2026 | 03/04/2026      | YouTube <br> https://www.w3schools.com/ |
-| 5   |- Kết nối API  <br> - Quản lý state          | 03/05/2026 | 03/05/2026      | YouTube <br> https://www.w3schools.com/ |
-| 6   |- Quản lý state    | 03/06/2026 | 03/06/2026      | YouTube <br> https://www.w3schools.com/ |
+| Day | Task                                                                                                                              | Start Date | Completion Date | Reference Material |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 2   | - Rà soát lại khối Dual Channel + Spatial Attention (CBAM) xem có gây nghẽn (bottleneck) luồng dữ liệu không                      | 03/02/2026 | 03/02/2026      |                    |
+| 3   | - Tinh chỉnh trọng số của Masked Focal Loss để ép mô hình tập trung hơn vào các điểm dữ liệu khó (hard samples)                   | 03/03/2026 | 03/03/2026      |                    |
+| 4   | - Bổ sung thêm các kỹ thuật Data Augmentation (độ sáng, độ tương phản) vào Custom train loop <br> - Chuẩn bị retrain các model còn lại | 03/04/2026 | 03/04/2026      |                    |
+| 5   | - Retrain `wrinkles_forehead_model.keras` và `wrinkles_mouth_model.keras` với kiến trúc được tối ưu lại                           | 03/05/2026 | 03/05/2026      |                    |
+| 6   | - Tổng hợp và so sánh thông số (F1-score, Precision, Recall) của toàn bộ 4 mô hình sau 2 tuần tinh chỉnh                          | 03/06/2026 | 03/06/2026      |                    |
 
 ### Kết quả:
 
-* Xây dựng backend bằng Node.js.
-* Kết nối API với database.
-* Kiểm thử và sửa lỗi hệ thống.
-* Xây dựng frontend bằng React.
-* Kết nối frontend với backend.
-* Cải thiện giao diện người dùng.
+* Các chỉ số đánh giá (metrics) đã có sự cải thiện rõ rệt so với bản train lỗi đầu tiên.
+* Đã giải quyết được phần lớn các lỗi kiến trúc, tuy nhiên kết quả dự đoán thực tế vẫn chưa đủ độ tin cậy an toàn (vẫn chưa cho ra được model phiên bản cuối cùng).

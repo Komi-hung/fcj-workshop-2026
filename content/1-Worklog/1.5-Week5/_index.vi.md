@@ -1,30 +1,28 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
+date: 2026-02-02
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
 
+### Mục tiêu tuần 5:
 
-### Mục tiêu:
+* Hoàn thiện 100% bộ dữ liệu (dataset) chuẩn cho 3 hạng mục: ACNE, SKINTONE, WRINKLES.
+* Tìm hiểu về Load Balancing và Auto Scaling trên AWS để tối ưu hệ thống.
 
-* Học storage, database và monitoring.
+### Công việc thực hiện trong tuần:
 
-### Công việc:
+| Day | Task                                                                                                                                                             | Start Date | Completion Date | Reference Material                      |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
+| 2   | - Hoàn tất thu thập và gán nhãn dữ liệu cho phần ACNE (theo 3 mức độ ) <br> - Tìm hiểu về Elastic Load Balancing (ELB)                                    | 02/02/2026 | 02/02/2026      |  |
+| 3   | - Hoàn thiện bộ dataset về SKINTONE (Phân loại theo thang đo Fitzpatrick) <br> - Cấu hình Application Load Balancer                                               | 02/03/2026 | 02/03/2026      | |
+| 4   | - Thu thập đủ số lượng ảnh cho phần WRINKLES (Nếp nhăn vùng mắt, trán) <br> - Tìm hiểu về Auto Scaling Group                                                     | 02/04/2026 | 02/04/2026      | |
+| 5   | - Tiền xử lý dữ liệu cuối cùng (Augmentation, Normalization) cho toàn bộ dataset <br> - Cấu hình Auto Scaling dựa trên tải của CPU                               | 02/05/2026 | 02/05/2026      |  |
+| 6   | - Đóng gói bộ Dataset Skin AI hoàn chỉnh và lưu trữ bản final trên S3 <br> - Test khả năng chịu tải và tự động mở rộng của hệ thống                              | 02/06/2026 | 02/06/2026      | |
 
-| Day | Task                      | Start Date | Completion Date | Reference Material                      |
-| --- | ------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Tìm hiểu S3 <br> -Tạo S3 bucket             | 02/02/2026 | 02/02/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Upload/download dữ liệu <br> +Bật tính năng website tĩnh <br> +Cấu hình Block Public Access <br> +Cấu hình public object <br> +Kiểm tra website | 02/03/2026 | 02/03/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Tạo RDS PostgreSQL <br> +Tạo RDS database instance <br> +Triển khai ứng dụng <br> +Backup và Restore      | 02/04/2026 | 02/04/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Kết nối database        | 02/05/2026 | 02/05/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Tìm hiểu CloudWatch <br> +CloudWatch Metrics <br> +CloudWatch Logs <br> +CloudWatch Alarms    | 02/06/2026 | 02/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+### Kết quả đạt được:
 
-### Kết quả:
-
-* Lưu trữ dữ liệu trên S3.
-* Tạo và sử dụng RDS.
-* Theo dõi hệ thống bằng CloudWatch.
-
+* Hoàn thành bộ dữ liệu chuẩn (Dataset) cho model Skin AI Analytic với đầy đủ các nhãn Acne, Skintone và Wrinkles.
+* Hiểu và thực hành triển khai hệ thống có khả năng chịu tải (High Availability) bằng Load Balancer và Auto Scaling.

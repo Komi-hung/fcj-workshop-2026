@@ -1,26 +1,29 @@
 ---
-
 title: "Week 10 Worklog"
-date: 2024-03-04
+date: 2024-01-01
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
------------------------
+---
 
-* Develop and deploy full project.
 
-### Tasks to be carried out this week:
+### Objectives:
 
-| Day | Task                           | Start Date | Completion Date | Reference Material                      |
-| --- | ------------------------------ | ---------- | --------------- | --------------------------------------- |
-| 2   | - Design system architecture <br> -Draw system architecture    | 03/16/2026 | 03/16/2026      | Google <br> ChatGPT <br> YouTube  |
-| 3   | - Integrate frontend & backend | 03/17/2026 | 03/17/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Deploy on AWS                | 03/18/2026 | 03/18/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Test system                  | 03/19/2026 | 03/19/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Fix bugs and optimize        | 03/20/2026 | 03/20/2026      | https://cloudjourney.awsstudygroup.com/ |
+* Complete the final model fine-tuning process, applying the Softmax function to optimize classification results.
+* Export detailed scoring models (on a 5-point scale) to `.tflite` format for integration.
 
-### Week 10 Achievements:
+### Tasks:
 
-* Completed fullstack application.
-* Successfully deployed system on AWS.
-* Tested and optimized performance.
+| Day | Task                                                                                                                     | Start Date | Completion Date | Reference Material |
+| --- | ------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ------------------ |
+| 2   | - Configure the Softmax activation function in the output layer to calculate probability distribution for each level (lv_1, lv_2, lv_3) | 03/16/2026 | 03/16/2026      |                    |
+| 3   | - Use probabilities from Softmax combined with Score mapping to calculate continuous scores on a 5-point scale and complete model training | 03/17/2026 | 03/17/2026      |                    |
+| 4   | - Convert models from `.keras` format to TensorFlow Lite (`.tflite`) format                                               | 03/18/2026 | 03/18/2026      |                    |
+| 5   | - Apply Quantization techniques to optimize and reduce `.tflite` file size without compromising accuracy                  | 03/19/2026 | 03/19/2026      |                    |
+| 6   | - Test `.tflite` files to ensure accurate output scores ranging from 1.0 to 5.0                                          | 03/20/2026 | 03/20/2026      |                    |
+
+### Results:
+
+* Successfully integrated Softmax to output probability distributions and smoothly map to detailed 5-point scores.
+* Successfully exported and optimized model files in `.tflite` format.
+* Ensured lightweight, stable models capable of accurate scoring.

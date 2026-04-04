@@ -9,25 +9,21 @@ pre: " <b> 1.9. </b> "
 
 ### Week 9 Objectives:
 
-* Learn backend development using Node.js.
-* Learn frontend development using React.
+* Continue refining the architecture and loss function to improve accuracy (metrics).
+* Resolve all remaining issues in the model convergence process.
 
-### Tasks to be carried out this week:
+### Tasks Completed:
 
-| Day | Task                   | Start Date | Completion Date | Reference Material                      |
-| --- | ---------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Learn Node.js basics <br> - Build REST API   | 03/02/2026 | 03/02/2026      | YouTube <br> https://www.w3schools.com/  | 
-| 3   | -Connect to database <br> - Test API endpoints <br> - Debug and optimize      | 03/03/2026 | 03/03/2026      | YouTube <br> https://www.w3schools.com/ |
-| 4   | - Learn React basics <br> - Build UI components | 03/04/2026 | 03/04/2026      | YouTube <br> https://www.w3schools.com/ |
-| 5   |- Connect API to frontend <br> -Manage state     | 03/05/2026 | 03/05/2026      | YouTube <br> https://www.w3schools.com/ |
-| 6   | - Test UI    | 03/06/2026 | 03/06/2026      | YouTube <br> https://www.w3schools.com/ |
+| Day | Task                                                                                                                              | Start Date | Completion Date | Reference Material |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 2   | - Review the Dual Channel + Spatial Attention (CBAM) block to check for potential data flow bottlenecks                           | 03/02/2026 | 03/02/2026      |                    |
+| 3   | - Adjust weights of the Masked Focal Loss to force the model to focus more on hard samples                                        | 03/03/2026 | 03/03/2026      |                    |
+| 4   | - Add additional Data Augmentation techniques (brightness, contrast) to the Custom train loop <br> - Prepare to retrain remaining models | 03/04/2026 | 03/04/2026      |                    |
+| 5   | - Retrain `wrinkles_forehead_model.keras` and `wrinkles_mouth_model.keras` with the optimized architecture                        | 03/05/2026 | 03/05/2026      |                    |
+| 6   | - Summarize and compare metrics (F1-score, Precision, Recall) of all 4 models after 2 weeks of fine-tuning                       | 03/06/2026 | 03/06/2026      |                    |
 
-### Week 9 Achievements:
+### Results:
 
-* Built backend API with Node.js.
-* Integrated API with PostgreSQL.
-* Tested and debugged application.
-* Built frontend application with React.
-* Integrated frontend with backend API.
-* Improved UI/UX design.
+* Evaluation metrics showed significant improvement compared to the initial faulty training.
+* Most architectural issues have been resolved, but real-world prediction results are still not reliable enough (final model version not yet ready).
 

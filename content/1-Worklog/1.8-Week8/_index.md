@@ -9,20 +9,20 @@ pre: " <b> 1.8. </b> "
 
 ### Week 8 Objectives:
 
-* Deep understanding of PostgreSQL database.
+* Evaluate training results from the previous week and perform model fine-tuning.
+* Fix arising issues (overfitting/underfitting) and begin improving hyperparameters.
 
-### Tasks to be carried out this week:
+### Tasks Completed:
 
-| Day | Task                      | Start Date | Completion Date | Reference Material                      |
-| --- | ------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Learn PostgreSQL basics | 02/23/2026 | 02/23/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 3   | - Perform CRUD operations | 02/24/2026 | 02/24/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 4   | - Connect backend with DB | 02/25/2026 | 02/25/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 5   | - Optimize queries        | 02/26/2026 | 02/26/2026      | https://cloudjourney.awsstudygroup.com/ |
-| 6   | - Backup & restore data   | 02/27/2026 | 02/27/2026      | https://cloudjourney.awsstudygroup.com/ |
+| Day | Task                                                                                                             | Start Date | Completion Date | Reference Material |
+| --- | ---------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 2   | - Evaluate Loss/Accuracy charts of the 4 trained models <br> - Analyze cases with high prediction errors         | 02/23/2026 | 02/23/2026      |                    |
+| 3   | - Debug overfitting on the validation set <br> - Adjust Learning Rate and Cosine Warmup Schedule                 | 02/24/2026 | 02/24/2026      |                    |
+| 4   | - Modify Mixup Augmentation configuration to better handle label imbalance                                      | 02/25/2026 | 02/25/2026      |                    |
+| 5   | - Begin retraining `acne_model.keras` and `wrinkles_eyes_model.keras` with new parameters                       | 02/26/2026 | 02/26/2026      |                    |
+| 6   | - Record retraining results: Metrics improved but did not meet requirements <br> - Pause for further analysis    | 02/27/2026 | 02/27/2026      |                    |
 
-### Week 8 Achievements:
+### Results:
 
-* Built and managed PostgreSQL database.
-* Connected database with application.
-* Performed data operations successfully.
+* Identified key causes of errors during the initial training process.
+* Adjusted multiple parameters (learning rate, augmentation), but the models have not yet converged well enough to produce a finalized model for use.

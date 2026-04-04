@@ -9,22 +9,23 @@ pre: " <b> 1.11. </b> "
 
 ### Mục tiêu tuần 11:
 
-* Tối ưu kiến trúc hệ thống và kiểm thử toàn bộ chức năng.
+* Tích hợp mô hình phân tích da (Skin AI Analytic) chạy trực tiếp trên nền tảng web (Client-side), không qua API.
+* Triển khai (deploy) website lên AWS Amplify, tối ưu hiệu năng và kiểm thử toàn bộ chức năng.
 
 ### Công việc thực hiện:
 
-| Day | Task                                                                                                                                            | Start Date | Completion Date | Reference Material                      |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
-| 2   | - Rà soát toàn bộ kiến trúc hệ thống (Frontend, Backend, Database, các dịch vụ AWS) <br> - Xác định các điểm nghẽn và thành phần dư thừa        | 03/16/2026 | 03/16/2026      | Google <br> ChatGPT <br> YouTube <br> https://aws.amazon.com/ |
-| 3   | - Tối ưu hiệu năng backend (thời gian phản hồi API, truy vấn database, connection pooling) <br> - Refactor các hàm chưa tối ưu                  | 03/17/2026 | 03/17/2026      | Google <br> ChatGPT <br> YouTube <br> https://aws.amazon.com/ |
-| 4   | - Tối ưu frontend (giảm số lần gọi API, lazy loading, cải thiện quản lý state) <br> - Cải thiện tốc độ phản hồi giao diện                       | 03/18/2026 | 03/18/2026      | Google <br> ChatGPT <br> YouTube <br> https://aws.amazon.com/ |
-| 5   | - Kiểm thử chức năng (functional testing) cho các tính năng chính (đăng nhập, CRUD, đặt hàng/đặt chỗ) <br> - Viết test case và ghi nhận kết quả | 03/19/2026 | 03/19/2026      | Google <br> ChatGPT <br> YouTube <br> https://aws.amazon.com/ |
-| 6   | - Kiểm thử tích hợp giữa các service (ECS, RDS, S3, CloudFront) <br> - Fix bug và xử lý các trường hợp biên (edge cases)                        | 03/20/2026 | 03/20/2026      | Google <br> ChatGPT <br> YouTube <br> https://aws.amazon.com/ |
-| 7   | - Test tải (load testing) và kiểm tra bảo mật cơ bản <br> - Tối ưu độ ổn định hệ thống và chuẩn bị bản gần hoàn thiện                           | 03/21/2026 | 03/21/2026      | Google <br> ChatGPT <br> YouTube <br> https://aws.amazon.com/ |
+| Day | Task                                                                                                                                            | Start Date | Completion Date | Reference Material |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 2   | - Rà soát lại kiến trúc hệ thống, chuyển đổi luồng xử lý AI sang Frontend. <br> - Khởi tạo dự án và cấu hình môi trường AWS Amplify.            | 03/16/2026 | 03/16/2026      |                    |
+| 3   | - Cấu hình và load trực tiếp file mô hình `.tflite` vào trình duyệt web.                                                                        | 03/17/2026 | 03/17/2026      |                    |
+| 4   | - Viết script tiền xử lý ảnh và đưa vào model chấm điểm ngay trên trình duyệt mà không cần gọi API backend.                                     | 03/18/2026 | 03/18/2026      |                    |
+| 5   | - Kiểm thử chức năng phân tích trực tiếp local, đảm bảo tuyệt đối không có dữ liệu hình ảnh nào bị đẩy ra ngoài hay lưu trữ.                    | 03/19/2026 | 03/19/2026      |                    |
+| 6   | - Tiến hành triển khai (deploy) ứng dụng web lên AWS Amplify. <br> - Kiểm thử trên môi trường Amplify, fix bug và xử lý các trường hợp biên.    | 03/20/2026 | 03/20/2026      |                    |
+| 7   | - Test hiệu năng xử lý của web app trên Amplify từ nhiều thiết bị (PC, Mobile). <br> - Kiểm tra luồng CI/CD tự động và chuẩn bị bản demo.       | 03/21/2026 | 03/21/2026      |                    |
 
 ### Kết quả đạt được:
 
-* Cải thiện hiệu năng tổng thể và giảm độ trễ hệ thống.
-* Đảm bảo các chức năng chính hoạt động ổn định.
-* Phát hiện và sửa các lỗi quan trọng.
-* Hoàn thiện phiên bản gần cuối để chuẩn bị deploy và demo.
+* Tích hợp thành công AI chạy trực tiếp trên trình duyệt, đảm bảo quyền riêng tư dữ liệu tuyệt đối (không lưu ảnh).
+* Triển khai website thành công, hoạt động mượt mà và bảo mật trên nền tảng AWS Amplify.
+* Giảm tải hoàn toàn cho server backend, tận dụng tốt khả năng tự động hóa triển khai (CI/CD) của Amplify.
+* Hoàn thiện phiên bản web app cuối cùng để chuẩn bị demo.
