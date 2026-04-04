@@ -1,5 +1,4 @@
-----------
-
+---
 title: "Week 8 Worklog"
 date: 2024-02-19
 weight: 8
@@ -19,7 +18,7 @@ pre: " <b> 1.8. </b> "
 | 2   | - Đánh giá biểu đồ Loss/Accuracy của 4 model đã train <br> - Phân tích các trường hợp mô hình dự đoán sai nhiều | 02/23/2026 | 02/23/2026      |                    |
 | 3   | - Tiến hành gỡ lỗi Overfitting trên tập validation <br> - Điều chỉnh lại Learning Rate và Cosine Warmup Schedule | 02/24/2026 | 02/24/2026      |                    |
 | 4   | - Thay đổi cấu hình Mixup Augmentation để xử lý tốt hơn sự mất cân bằng dữ liệu của các nhãn                   | 02/25/2026 | 02/25/2026      |                    |
-| 5   | - Bắt đầu quá trình retrain lại `acne_model.keras` và `wrinkles_eyes_model.keras` với các thông số mới         | 02/26/2026 | 02/26/2026      |                    |
+| 5   | - Bắt đầu quá trình retrain lại **acne_model.keras** và **wrinkles_model.keras** với các thông số mới         | 02/26/2026 | 02/26/2026      |                    |
 | 6   | - Ghi nhận kết quả retrain: Các chỉ số có thay đổi nhưng chưa đạt chuẩn yêu cầu <br> - Tạm dừng để phân tích thêm| 02/27/2026 | 02/27/2026      |                    |
 
 ### Kết quả:
