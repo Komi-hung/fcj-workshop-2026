@@ -1,10 +1,10 @@
---------------
+---
 title: "Week 7 Worklog"
 date: 2024-02-12
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
-----------------------
+---
 
 ### Mục tiêu tuần 7:
 
