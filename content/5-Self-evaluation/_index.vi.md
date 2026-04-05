@@ -9,7 +9,7 @@ pre: " <b> 5. </b> "
 
 
 Trong suốt thời gian thực tập tại **[Bootcamp AWS study group]** từ **[5/1/2026]** đến **[5/4/2026]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Tôi đã tham gia **[website bán sản phẩm chăm sóc da + tích hợp AI ]**, qua đó cải thiện kỹ năng **[lập trình, phân tích]**.  
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
 
