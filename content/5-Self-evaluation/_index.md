@@ -9,7 +9,7 @@ pre: " <b> 5. </b> "
 
 
 During my internship at **[Bootcamp AWS study group]** from **[5/1/2026]** to **[5/4/2026]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+I participated in **[Website selling facial skincare products + AI integration]**, through which I improved my skills in **[programming, analysis]**.  
 
 In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
 
